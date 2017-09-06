@@ -283,7 +283,7 @@ public class mon {
         Session session=Session.getInstance(prop);
         session.setDebug(false);
         Transport transport=session.getTransport();
-        transport.connect("smtp.mxhichina.com","hongyu.sun@innotree.cn","shy88888888*");
+        transport.connect("smtp.mxhichina.com","hongyu.sun@innotree.cn","sunhongyu1934*");
         Message message = createMimeMessage(session,html);
         //5、发送邮件
         transport.sendMessage(message, message.getAllRecipients());
