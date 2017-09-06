@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>ResponseDemo1</servlet-name>
+        <servlet-class>stu_te.ResponseDemo1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResponseDemo1</servlet-name>
+        <url-pattern>/servlet/ResponseDemo1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>spider_log</servlet-name>
+        <servlet-class>Monitor.spider_log</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>spider_log</servlet-name>
+        <url-pattern>/servlet/spider_log</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TestDau</servlet-name>
+        <servlet-class>com.inno.controller.DauController.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestDau</servlet-name>
+        <url-pattern>/servlet/TestDau</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Dau</servlet-name>
+        <servlet-class>com.inno.controller.DauController.DauServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Dau</servlet-name>
+        <url-pattern>/servlet/DauServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Insert</servlet-name>
+        <servlet-class>com.inno.controller.InsertController.InsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Insert</servlet-name>
+        <url-pattern>/servlet/insertServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Mon</servlet-name>
+        <servlet-class>com.inno.controller.MonController.MonServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Mon</servlet-name>
+        <url-pattern>/servlet/MonServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Inv</servlet-name>
+        <servlet-class>com.inno.controller.InvestController.InvestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Inv</servlet-name>
+        <url-pattern>/servlet/InvestServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Tyc</servlet-name>
+        <servlet-class>com.inno.controller.TycController.TycUi</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Tyc</servlet-name>
+        <url-pattern>/servlet/TycSpider</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TycJk</servlet-name>
+        <servlet-class>com.inno.controller.TycController.TycServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TycJk</servlet-name>
+        <url-pattern>/servlet/TycServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+    <servlet>
+        <servlet-name>jsp</servlet-name>
+        <jsp-file>/index.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>jsp</servlet-name>
+    <url-pattern>/DauServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>investjsp</servlet-name>
+        <jsp-file>/inst_invest.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>investjsp</servlet-name>
+        <url-pattern>/InvestServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>testui</servlet-name>
+        <servlet-class>com.inno.controller.DauController.TestUi</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>testui</servlet-name>
+        <url-pattern>/testjsp</url-pattern>
+    </servlet-mapping>
+</web-app>
