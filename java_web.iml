@@ -19,6 +19,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="commons-dbcp-1.2" level="project" />
+    <orderEntry type="library" name="poi" level="project" />
+    <orderEntry type="library" name="jsoup-1.9.2" level="project" />
+    <orderEntry type="library" name="java_servlet" level="project" />
   </component>
 </module>
